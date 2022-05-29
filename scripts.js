@@ -30,4 +30,8 @@ console.log(message5("John Mwai"));
 //Having two arguments
 let message6 = (name1,name2) => `${name1} and ${name2}`;
 
-console.log(message6("John","Ben"));    
+console.log(message6("John","Ben"));
+
+//Multiplication
+let Multiplication = (a,b) => (a*b);
+document.getElementById("multiply").innerHTML=Multiplication(4,5);

@@ -1,4 +1,10 @@
 # JavaScript_ES6_Arrow_Functions
+
+Arrow functions were introduced in ES6.
+
+Arrow functions allow us to write shorter function syntax:
+
+
     function message () {
       return "Hello World!";
     }
@@ -32,4 +38,5 @@ Since it is one value, we dont have to enclose the value within the brackets
 We have to have brackets when passing two arguments
     let message6 = (name1,name2) => `${name1} and ${name2}`;
 
-    console.log(message6("John","Ben"));    
+    console.log(message6("John","Ben"));
+
