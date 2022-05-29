@@ -16,3 +16,8 @@ console.log(message2());
 let message3 = () => "Hello World3!";
 
 console.log(message3());
+
+//Having a message inside the curl brackets
+let message4 = (name) => `Hello ${name}!`;
+
+console.log(message4("John"));

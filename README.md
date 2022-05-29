@@ -18,3 +18,8 @@ We can get lid of curl brackets
     let message3 = () => "Hello World3!";
 
     console.log(message3());
+
+We can have a message inside the curl brackets
+    let message4 = (name) => `Hello ${name}!`;
+
+    console.log(message4("John"));
