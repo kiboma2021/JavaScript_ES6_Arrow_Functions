@@ -5,3 +5,10 @@
 
     console.log(message());
 
+To turn this to an arrow function we have to assign it a variable
+
+    let message2 = () => {
+      return "Hello World2!";
+    }
+
+    console.log(message2());
