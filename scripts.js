@@ -21,3 +21,8 @@ console.log(message3());
 let message4 = (name) => `Hello ${name}!`;
 
 console.log(message4("John"));
+
+//Removing the brackets
+let message5 = name => `Hello ${name}!`;
+
+console.log(message5("John Mwai"));

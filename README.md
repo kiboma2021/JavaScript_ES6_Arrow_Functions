@@ -23,3 +23,8 @@ We can have a message inside the curl brackets
     let message4 = (name) => `Hello ${name}!`;
 
     console.log(message4("John"));
+
+Since it is one value, we dont have to enclose the value within the brackets
+    let message5 = name => `Hello ${name}!`;
+
+    console.log(message5("John"));
