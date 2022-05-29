@@ -26,3 +26,8 @@ console.log(message4("John"));
 let message5 = name => `Hello ${name}!`;
 
 console.log(message5("John Mwai"));
+
+//Having two arguments
+let message6 = (name1,name2) => `${name1} and ${name2}`;
+
+console.log(message6("John","Ben"));    

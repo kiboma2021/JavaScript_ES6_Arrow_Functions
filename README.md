@@ -28,3 +28,8 @@ Since it is one value, we dont have to enclose the value within the brackets
     let message5 = name => `Hello ${name}!`;
 
     console.log(message5("John"));
+
+We have to have brackets when passing two arguments
+    let message6 = (name1,name2) => `${name1} and ${name2}`;
+
+    console.log(message6("John","Ben"));    
