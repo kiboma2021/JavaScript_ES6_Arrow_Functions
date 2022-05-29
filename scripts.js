@@ -11,3 +11,8 @@ let message2 = () => {
 }
 
 console.log(message2());
+
+//We dont need curl brackets
+let message3 = () => "Hello World3!";
+
+console.log(message3());

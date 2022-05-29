@@ -12,3 +12,9 @@ To turn this to an arrow function we have to assign it a variable
     }
 
     console.log(message2());
+
+We can get lid of curl brackets
+
+    let message3 = () => "Hello World3!";
+
+    console.log(message3());
